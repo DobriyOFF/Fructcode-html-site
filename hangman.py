@@ -16,7 +16,7 @@ def return_random_word():
 
 
 def handle_user_input():
-    # TODO: validate is letter
+    
     user_input = input('Please, input letter: ')
     return user_input
 
@@ -40,7 +40,7 @@ def is_game_finished(statuses, current_errors):
 
 
 def perfom_check_action(word, statuses, letter):
-    # TODO: check for single action
+    
     if letter not in word:
         return False
 
@@ -80,4 +80,4 @@ def main():
         print('You win!')
 
 
-main(str)
+main()
