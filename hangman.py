@@ -5,7 +5,7 @@ import random
 WORDS = [  # TODO: add more words
     'developer',
     'macos',
-    'github',
+    'github'
 ]
 
 MAX_ERRORS = 10
