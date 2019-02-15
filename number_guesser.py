@@ -1,15 +1,15 @@
 import random
 
-print('Угадай число от 1 до 20!')
+print('1 20')
 
 answer = random.randint(1, 20)
 guess = 21
 
 while guess != answer:
-    guess = int(input('Введите число!'))
+    guess = int(input('Write your number!'))
     if guess > answer:
-        print('Многовато!')
+        print('Less!')
     elif guess < answer:
-        print('Маловато!')
+        print('More!')
     else:
-        print('Поздравляю, победа!')
+        print('Congratz!')
