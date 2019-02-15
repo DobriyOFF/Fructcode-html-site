@@ -1,0 +1,34 @@
+*mkdir -p ~/git/testing ; cd ~/git/testing 
+//mkdir - create a new repository(catalogies)
+
+*cd C:/Sergey
+*git clone (ssh)
+//clone files on github to your computer
+
+*git status
+//status
+
+*git add (style.css) or git add . (for all)
+//update your file
+
+*git commit -m 'Change style.css'
+//add commit
+
+*git push
+//download in git
+
+*git checkout -b (bg-pink)
+//new branch
+
+*git checkout master
+//change brach
+
+*git branch
+
+*git push --set-upstream origin (bg-pink)
+
+*git pull
+//reload git after pullrequest
+
+*git branch --delete (bg-pink)
+//delete 
